@@ -13,3 +13,11 @@ Steps
 4.  Train model on Google Colab using *seq2seqcomments.ipynb*.
 
 5.  Generate comments **TBD**
+
+*comments-not-on-github.py* is a standalone Python script proof of concept using a small sample data set.
+
+Also please note that instead of `model.predict_classes()` the code below should be used when making predictions, per a Keras change in 2021.
+
+`predicted = np.argmax(model.predict(token_list), axis=-1)`
+
+   
