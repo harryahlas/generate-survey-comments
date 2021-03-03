@@ -10,7 +10,9 @@ Steps
 
 3.  Save a copy of *training_comments.csv* to Google Drive. Location: '/content/gdrive/MyDrive/Development/seq2seqcomments/training_comments.csv'
 
-4.  Train model on Google Colab using *seq2seqcomments.ipynb*.
+4.  Train model on Google Colab using *seq2seqcomments.ipynb*. Results were subpar.
+
+5.  Trained model on Google Colab using *Interactive_textgenrnn_Comment_Generator_w_GPU.ipynb*, by Max Woolf. Results were much better but still not entirely coherent. 
 
 5.  Generate comments **TBD**
 
