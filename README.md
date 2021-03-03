@@ -16,9 +16,9 @@ Steps
 
 5.  Generate comments **TBD**
 
-*comments-not-on-github.py* is a standalone Python script proof of concept using a small sample data set.
+### Standalone script
 
-Also please note that instead of `model.predict_classes()` the code below should be used when making predictions, per a Keras change in 2021.
+[comments-not-on-github.py](https://github.com/harryahlas/generate-survey-comments/blob/master/comments-not-on-github.py) is a standalone Python script proof of concept using a small sample data set. Note that instead of `model.predict_classes()` the code below should be used when making predictions, per a Keras change in 2021.
 
 `predicted = np.argmax(model.predict(token_list), axis=-1)`
 
