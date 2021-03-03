@@ -12,7 +12,7 @@ Steps
 
 4.  Train model on Google Colab using [seq2seqcomments.ipynb](https://github.com/harryahlas/generate-survey-comments/blob/master/seq2seqcomments.ipynb). Results were subpar.
 
-5.  Trained model on Google Colab using [Interactive_textgenrnn_Comment_Generator_w_GPU.ipynb](https://github.com/harryahlas/generate-survey-comments/blob/master/Interactive_textgenrnn_Comment_Generator_w_GPU.ipynb), by [Max Woolf](https://minimaxir.com/). Results were much better but still not entirely coherent. 
+5.  Trained model on Google Colab using [Interactive_textgenrnn_Comment_Generator_w_GPU.ipynb](https://github.com/harryahlas/generate-survey-comments/blob/master/Interactive_textgenrnn_Comment_Generator_w_GPU.ipynb), by [Max Woolf](https://minimaxir.com/). Results were much better but still not entirely coherent. Trying again with 40 epochs.
 
 5.  Generate comments **TBD**
 
